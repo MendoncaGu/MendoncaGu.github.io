@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Gustavo Mendonça</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 2rem 1rem;
+      text-align: center;
+      border-bottom: 2px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffffff;
+      border-left: 4px solid #4caf50;
+      padding-left: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    .projetos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .projeto {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 1rem;
+      transition: 0.3s;
+    }
+
+    .projeto:hover {
+      border-color: #4caf50;
+      transform: scale(1.02);
+    }
+
+    .projeto h3 {
+      margin-bottom: 0.5rem;
+      color: #4caf50;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 2px solid #333;
+    }
+
+    a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gustavo Mendonça</h1>
+    <p>Estudante de Python | Desenvolvedor em formação</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Olá! Me chamo Gustavo Mendonça e sou um estudante apaixonado por tecnologia e programação. Atualmente estou focado em aprender Python, e já desenvolvi alguns projetos pessoais.</p>
+    </section>
+
+    <section>
+      <h2>Projetos em Python</h2>
+      <div class="projetos">
+        <div class="projeto">
+          <h3>💡 Gerador de Senhas</h3>
+          <p>Uma aplicação simples que gera senhas seguras com diferentes tamanhos e combinações de caracteres.</p>
+        </div>
+
+        <div class="projeto">
+          <h3>📊 Analisador de Dados CSV</h3>
+          <p>Ferramenta em Python que lê arquivos CSV e apresenta estatísticas, médias e gráficos simples usando matplotlib e pandas.</p>
+        </div>
+
+        <div class="projeto">
+          <h3>📧 Automação de Emails</h3>
+          <p>Script que automatiza o envio de e-mails personalizados para múltiplos destinatários com anexos.</p>
+        </div>
+
+        <div class="projeto">
+          <h3>🎮 Jogo da Adivinhação</h3>
+          <p>Um pequeno jogo no terminal onde o usuário tenta adivinhar um número aleatório gerado pelo programa.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>Me encontre no GitHub: <a href="https://github.com/MendoncaGu" target="_blank">github.com/MendoncaGu</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gustavo Mendonça. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
